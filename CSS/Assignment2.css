@@ -1,0 +1,46 @@
+*{
+    background-color: #53578d;
+}
+header{
+    background-color: #333cb6;
+    width: initial;
+    height: 100px;
+    border: 1px dotted black;
+}
+img{
+    height: 100px;
+    border: 1px dotted black;
+
+}
+.upper-section{
+    border: 1px dotted black;
+    
+
+}
+.lower-section{
+
+    border: 1px dotted black;
+}
+
+.upper-section-div{
+    border: 1px dotted black;
+
+}
+.lower-section-div{
+    
+    border: 1px dotted black;
+}
+aside{
+    border: 1px dotted black;
+
+}
+nav{
+    
+}
+a{
+    text-decoration: none;
+    padding: 1px;
+    background-color: white;
+    color: #333cb6;
+    font-size: 40px;
+}

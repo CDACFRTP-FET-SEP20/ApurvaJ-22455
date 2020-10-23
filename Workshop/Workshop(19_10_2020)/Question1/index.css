@@ -1,0 +1,26 @@
+.circle{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+
+}
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+button
+{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    
+}

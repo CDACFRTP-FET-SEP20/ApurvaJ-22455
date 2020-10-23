@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link href="./Assignment4.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="border-class">
+            <form name="register" action="./success.html">
+            <div class="left">
+                <div class="div-left"><label>Employee ID:</label></div>
+                <div class="div-left"><label>First name:</label></div>
+                <div class="div-left"><label>Last name:</label></div>
+                <div class="div-left addr-radio-fillers" ><label>Department:</label></div>
+                <div class="div-left"><label>Date of joining:</label></div>
+                <div class="div-left"><label>Email:</label></div>
+                <div class="div-left"><label>Contact No:</label></div>
+                <div class="div-left addr-radio-fillers"><label>Address:</label></div>
+                <div class="div-left addr-radio-fillers"><label>Training Programs to be attended:</label></div>
+                <div class="div-left"></div>
+            </div>
+            <div class="right">
+                <div class="div-right"><input type="number" required min="10001" max="15000"></div>
+                <div class="div-right"><input type="text" required minlength="3" maxlength="15"></div>
+                <div class="div-right"><input type="text" required minlength="5" maxlength="15"></div>
+                <div class="div-right addr-radio-fillers"  >
+                    <input type="radio" name="radio" required>IT<br>
+                    <input type="radio" name="radio" required>HR<br>
+                    <input type="radio" name="radio" required>Finance<br>
+                    <input type="radio" name="radio" required>Admin<br>
+                </div>
+                <div class="div-right"><input type="date" required  max="2020-10-17"></div>
+                <div class="div-right"><input type="email" required></div>
+                <div class="div-right"><input type="tel" required maxlength="10"  minlength="10"></div>
+                <div class="div-right addr-radio-fillers" ><textarea required rows="5" cols="32"></textarea></div>
+                <div class="div-right addr-radio-fillers" >
+                    <input type="checkbox" value="Web Basics">Web Basics<br>
+                    <input type="checkbox" value="C#">C#<br>
+                    <input type="checkbox" value="Entity Framework">Entity Framework<br>
+                    <input type="checkbox" value="ASP.NET MVC">ASP.NET MVC
+                </div>
+                <div class="div-right">
+                    <input type="submit"  value="Register" >
+                    <input type="reset" value="Cancel" >
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

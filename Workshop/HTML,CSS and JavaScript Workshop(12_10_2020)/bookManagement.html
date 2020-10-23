@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Management System</title>
+        <link href="./bookManagement.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Book Management System</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" onclick="displayAddBook()">Add Book</a>
+                </li>
+                
+                <li>
+                    <a href="#">Remove Book</a>
+                </li>
+                
+                <li>
+                    <a href="#">Edit Book</a>
+                </li>
+                
+                <li>
+                    <a href="#"  onclick="displayAllBook()">See All Books</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <div id="add_book" > 
+                <form id="add_book_form" >
+                    <table border="0">
+                        <tr>
+                            <th>Adding A New Book</th>
+                           
+                        </tr>
+                        <tr>
+                            <td>Book Name</td>
+                            <td><input type="text" id="bName"></td>
+                        </tr>
+                        <tr>
+                            <td>Author</td>
+                            <td><input type="text" id="bAuthor"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Description</td>
+                            <td><input type="text" id="bDesc"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="button" onclick="addBook()" value="Submit"></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+            <div id="all_books">
+                <table border = "1" id="books_table">
+                    <tr>
+                        <td>Book Name</td>
+                        <td>Author</td>
+                        <td>Description</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+       
+        <aside>
+            <p>You can add books</p><br>
+            <p>You can Edit Book descriptions</p><br>
+            <p>You can delete Books</p><br>
+            <p>You can see all Books</p><br>
+        </aside>
+
+        <footer>
+            @Copyright Cybage Software Pvt. Ltd
+        </footer>
+      
+    </body>
+    <script src="./bookManagement.js"></script>
+</html>

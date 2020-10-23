@@ -1,0 +1,32 @@
+.border-class{
+    border: 1px solid black;
+    width: 486px;
+    height: 475px;
+}
+.left{
+    position: absolute;
+    padding: 4px;
+}
+.right{
+    position: absolute;
+    padding: 4px;
+    left: 230px;
+}
+.div-left{
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 5px 5px 5px 0px;
+    width: 220px;
+    height: 22px;
+   
+}
+.div-right{
+    border: 1px solid black;
+    left: 300px;
+    width: 250px;
+    height: 22px;
+    margin: 5px;
+}
+.addr-radio-fillers{
+    height: 80px;
+}
