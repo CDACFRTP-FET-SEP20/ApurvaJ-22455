@@ -1,0 +1,53 @@
+
+input,select{
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 200px;
+}
+select{
+  margin: 5px;
+}
+input:invalid{
+    box-shadow : 1px red; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+form {
+  padding: 20px;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  width: 400px;
+  border-radius: 4px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+
+form .error {
+  color: #ff0000;
+  display: block;
+}
+
+input[type="checkbox"] {
+  width:initial;
+}
+
+.alert {
+  display: none;
+  
+}
