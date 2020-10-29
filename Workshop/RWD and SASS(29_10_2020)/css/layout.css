@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(113, 146, 151, 0.596);
+  font-family: "Arial"; }
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  width: 100%; }
+  .container .container-left {
+    width: 30%;
+    border: 1px solid black;
+    margin: 2% 0% 2% 2%; }
+    .container .container-left img {
+      width: 100%;
+      height: auto; }
+  .container .container-right {
+    width: 70%;
+    border: 1px solid black;
+    margin: 2%; }
+    .container .container-right img {
+      width: 100%;
+      height: auto; }
+  .container li {
+    margin: 5%;
+    padding: 2%; }
+  .container a {
+    color: #131010; }
+
+.header {
+  width: 100%;
+  height: 10rem; }
+  .header .site-name {
+    height: 70%; }
+  .header .links {
+    background-color: #131010;
+    height: 25%; }
+    .header .links ul {
+      display: flex;
+      justify-content: flex-start; }
+      .header .links ul li {
+        padding: 1%; }
+    .header .links a {
+      color: #fceded;
+      font-family: "Arial";
+      font-size: 1em; }
+      .header .links a:active {
+        background-color: #383737;
+        color: #fceded; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.footer {
+  width: 100%;
+  height: 5rem;
+  display: flex; }
+  .footer .social-media {
+    width: 50%; }
+    .footer .social-media ul {
+      display: flex;
+      justify-content: flex-start; }
+      .footer .social-media ul li {
+        padding: 1%; }
+    .footer .social-media a {
+      color: #fceded;
+      font-family: "Arial";
+      font-size: 1em; }
+      .footer .social-media a:active {
+        background-color: #383737;
+        color: #fceded; }
+  .footer .legal {
+    width: 50%; }
+
+@media all and (max-width: 480px) {
+  .container {
+    flex-direction: column; }
+    .container .container-left {
+      width: 95%; }
+    .container .container-right {
+      width: 95%; }
+  .footer {
+    flex-direction: column; }
+    .footer .social-media {
+      width: 100%; }
+      .footer .social-media ul {
+        flex-direction: column; }
+    .footer .legal {
+      width: 100%; } }
+
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column; }
+    .footer .social-media {
+      width: 100%; }
+      .footer .social-media ul {
+        flex-direction: column; }
+    .footer .legal {
+      width: 100%; } }

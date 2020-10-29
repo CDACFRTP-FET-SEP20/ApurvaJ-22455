@@ -1,0 +1,121 @@
+
+@import "../scss/variables";
+body{
+    background-color: $bg-color;
+    
+    font-family: "Arial";
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    width: $container-width;
+    .container-left{
+        width:$container-left-width;
+        border: 1px solid black;
+        margin: 2% 0% 2% 2%;
+
+        img{
+            width: $container-width;
+            height: auto;
+        }
+    }
+    .container-right{
+        width:$container-right-width;
+        border: 1px solid black;
+        margin: 2%;
+       
+        img{
+            width: $container-width;
+            height: auto;
+        }
+    }
+    li{
+        margin: 5%;
+    padding: 2%;
+    }
+    a{
+        color: $link-bg-color;
+
+    }
+}
+
+.header{
+   
+    width: $header-width;
+    height: $header-height;
+  
+    .site-name{
+        height: $site-name-height;
+        
+    }
+    .links{
+        background-color: $link-bg-color;
+        height: $links-height;
+       
+        ul{
+            display: flex;
+            justify-content: flex-start;
+            li{
+                padding: 1%;
+            }
+        }
+        a{
+            
+            color: $anchor-color;
+            font-family: "Arial";
+            font-size: $anchor-font-size;
+
+            &:active{
+                background-color: $link-active-bg-color;
+                color: $anchor-color;
+
+            }
+        }
+    }   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.footer{
+    width: $footer-width;
+    height: $footer-height;
+    display: flex;
+ 
+    .social-media{
+        width: 50%;
+
+        ul{
+            display: flex;
+            justify-content: flex-start;
+            li{
+                padding: 1%;
+            }
+        }
+        a{
+            
+            color: $anchor-color;
+            font-family: "Arial";
+            font-size: $anchor-font-size;
+
+            &:active{
+                background-color: $link-active-bg-color;
+                color: $anchor-color;
+
+            }
+        }
+    }
+    .legal{
+        width: 50%;
+    }
+}
+
+
+
+//media Queries
+
+@import "../scss/media";

@@ -1,0 +1,45 @@
+@import "../scss/variables";
+
+@media   all and (max-width: $mobile-width){
+    .container{
+        flex-direction: column;
+        .container-left{
+            width: 95%;
+        }
+        .container-right{
+            width: 95%;
+        }
+    }
+    .footer{
+        flex-direction: column;
+        .social-media{
+
+            ul{
+                flex-direction: column;
+            }
+            width: 100%;
+        }
+        .legal{
+            width: 100%;
+        }
+    }
+}
+    
+@media  (max-width: $tablet-width){
+    .footer{
+        flex-direction: column;
+        .social-media{
+
+            ul{
+                flex-direction: column;
+            }
+            width: 100%;
+        }
+        .legal{
+            width: 100%;
+        }
+}
+}
+@media (max-width: $desktop-width){
+    
+}
