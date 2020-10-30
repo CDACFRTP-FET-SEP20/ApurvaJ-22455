@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Worksgop</title>
+
+    <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../lib/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
+    <script src="../js/registration-validtion.js"></script>
+
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="container ">
+            
+            <form class="reg-form" id="regForm">
+                <div class="heading"><h2>Registration</h2></div>
+                <hr/>
+                <div class="row">
+                   
+                        <label for="fname" class="col-sm-3">First name</label>
+                  
+                        <div class="col-sm-9">
+                            <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name">
+                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="lname">Last name</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="email">Email*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="password">Password*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="cpassword">Confirm Password*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="password" id="cpassword" name="cpassword" class="form-control" placeholder="Confirm Password">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="dob">Date of Birth*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="date" id="dob" name="dob" class="form-control" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone Number">
+                        <small class="text-muted">Your Phone Number will not be disclosed anywhere</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="height">Height*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="height" name="height" class="form-control" placeholder="Please enter your height in centimeters">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="weight">Weight*</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="weight" name="weight" class="form-control" placeholder="Please enter your height in kilograms">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="weight">Gender</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input " type="radio" name="gender" id="genderF" value="Female" >
+                            <label class="form-check-label" for="genderF">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="genderM" value="Male">
+                            <label class="form-check-label" for="genderM">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="genderO" value="other" >
+                            <label class="form-check-label" for="genderO">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                   <div class="col-sm-9 col-sm-offset-3"><p><small>*Required Fields</small></p></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+               
+            
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+$max-width: 500px;
+$pd : 15px;
+$border-radius: 1px;
+
+$heading-color:  #000000;
+$heading-font-weight:  600;
+$heading-font-size:  40px;
+$heading-margin: 5%;
+$heading-letter-spacing:4px;
+body{
+    background: url("../images/background.jpg") fixed;
+    background-size: cover;
+}
+
+.reg-form{
+   
+    max-width: $max-width;
+    padding: $pd;
+    margin: 0 auto;
+    border-radius: $border-radius;
+    background-color: #f2f2f2;
+}
+
+.error{
+ color: red;
+}
+
+.heading{
+   
+    font-size: $heading-font-size;
+    font-weight: $heading-font-weight;
+    color: $heading-color;
+    margin-top: $heading-margin;
+    margin-bottom: $heading-margin;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: $heading-letter-spacing;
+
+}
