@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<p>Message : {{message}}</p>
+<!-- <h5>FooComponent : </h5> -->
+<!-- <app-foo></app-foo> -->
+
+<h1>  {{actor.name}} </h1>
+<h1>  {{actor.characterPlayed}} </h1>
+<h1 *ngIf="actor.isHandsome"> Handsome </h1>
+<h1 *ngIf="!actor.isHandsome"> Not so Handsome </h1>
+<p [ngStyle]="{ 'font-weight': 'bold','font-size': '14' ,'font-family':'verdana','color':'royalblue' }" >{{actor.name}} </p>
+
+
+<button (click)="displayMessage()">Display Message</button>
+
+<br><br>
+
+<label >Actors's Name : </label>
+<input [(ngModel)]="actor.name"><br>
+
+<p>  Binding : {{actor.name}} </p>
+<p>  Upper Case : {{actor.characterPlayed | uppercase}} </p>
+<p>  Lower Case : {{actor.characterPlayed | lowercase}} </p>
